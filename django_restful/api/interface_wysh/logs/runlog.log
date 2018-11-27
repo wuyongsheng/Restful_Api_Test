@@ -1,0 +1,112 @@
+2018-11-26 23:29:53,081 mysql_action.py[line:8] INFO ==================init data===============
+2018-11-26 23:29:53,081 mysql_action.py[line:9] INFO connect db...
+2018-11-26 23:29:53,224 mysql_action.py[line:13] INFO clear db...
+2018-11-26 23:29:53,640 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:53,641 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:29:53,641 mysql_action.py[line:29] INFO '1','wysh1','wysh1@qq.com','http://127.0.0.1:8009/groups/1/'
+2018-11-26 23:29:53,642 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('1','wysh1','wysh1@qq.com','http://127.0.0.1:8009/groups/1/')
+2018-11-26 23:29:53,663 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:53,663 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:29:53,664 mysql_action.py[line:29] INFO '2','wysh2','wysh2@qq.com','http://127.0.0.1:8009/groups/2/'
+2018-11-26 23:29:53,664 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('2','wysh2','wysh2@qq.com','http://127.0.0.1:8009/groups/2/')
+2018-11-26 23:29:53,686 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:53,687 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:29:53,687 mysql_action.py[line:29] INFO '3','wysh3','wysh3@qq.com','http://127.0.0.1:8009/groups/3/'
+2018-11-26 23:29:53,688 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('3','wysh3','wysh3@qq.com','http://127.0.0.1:8009/groups/3/')
+2018-11-26 23:29:53,707 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:53,708 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:29:53,708 mysql_action.py[line:29] INFO '4','wysh4','wysh4@qq.com','http://127.0.0.1:8009/groups/4/'
+2018-11-26 23:29:53,709 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('4','wysh4','wysh4@qq.com','http://127.0.0.1:8009/groups/4/')
+2018-11-26 23:29:53,730 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:53,730 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:29:53,731 mysql_action.py[line:29] INFO '5','wysh5','wysh5@qq.com','http://127.0.0.1:8009/groups/5/'
+2018-11-26 23:29:53,731 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('5','wysh5','wysh5@qq.com','http://127.0.0.1:8009/groups/5/')
+2018-11-26 23:29:53,752 mysql_action.py[line:13] INFO clear db...
+2018-11-26 23:29:54,000 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:54,001 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:29:54,001 mysql_action.py[line:29] INFO '1','wysh_group1'
+2018-11-26 23:29:54,002 mysql_action.py[line:32] INFO insert into api_group(id,name)values('1','wysh_group1')
+2018-11-26 23:29:54,035 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:54,036 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:29:54,036 mysql_action.py[line:29] INFO '2','wysh_group2'
+2018-11-26 23:29:54,036 mysql_action.py[line:32] INFO insert into api_group(id,name)values('2','wysh_group2')
+2018-11-26 23:29:54,052 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:54,052 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:29:54,053 mysql_action.py[line:29] INFO '3','wysh_group3'
+2018-11-26 23:29:54,053 mysql_action.py[line:32] INFO insert into api_group(id,name)values('3','wysh_group3')
+2018-11-26 23:29:54,074 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:54,075 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:29:54,075 mysql_action.py[line:29] INFO '4','wysh_group4'
+2018-11-26 23:29:54,075 mysql_action.py[line:32] INFO insert into api_group(id,name)values('4','wysh_group4')
+2018-11-26 23:29:54,096 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:29:54,097 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:29:54,097 mysql_action.py[line:29] INFO '5','wysh_group5'
+2018-11-26 23:29:54,097 mysql_action.py[line:32] INFO insert into api_group(id,name)values('5','wysh_group5')
+2018-11-26 23:29:54,122 mysql_action.py[line:39] INFO close db
+2018-11-26 23:29:54,123 mysql_action.py[line:41] INFO =============init finished!============
+2018-11-26 23:29:54,655 run.py[line:27] INFO =========Start API Test=============
+2018-11-26 23:29:54,656 test_django_restful.py[line:60] INFO test_001_group
+2018-11-26 23:29:55,258 test_django_restful.py[line:67] INFO test_002_add_group
+2018-11-26 23:29:55,837 test_django_restful.py[line:75] INFO test_003_update_group
+2018-11-26 23:29:56,505 test_django_restful.py[line:83] INFO test_004_delete_group
+2018-11-26 23:29:57,336 test_django_restful.py[line:14] INFO test_001_get_user
+2018-11-26 23:29:57,887 test_django_restful.py[line:22] INFO test_002_add_user
+2018-11-26 23:29:58,527 test_django_restful.py[line:32] INFO test_003_update_user
+2018-11-26 23:29:59,173 test_django_restful.py[line:40] INFO test_004_delete_user
+2018-11-26 23:29:59,758 test_django_restful.py[line:46] INFO test_005_no_auth
+2018-11-26 23:53:37,163 mysql_action.py[line:8] INFO ==================init data===============
+2018-11-26 23:53:37,164 mysql_action.py[line:9] INFO connect db...
+2018-11-26 23:53:39,585 mysql_action.py[line:13] INFO clear db...
+2018-11-26 23:53:41,778 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:41,779 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:53:41,779 mysql_action.py[line:29] INFO '1','wysh1','wysh1@qq.com','http://127.0.0.1:8009/groups/1/'
+2018-11-26 23:53:41,780 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('1','wysh1','wysh1@qq.com','http://127.0.0.1:8009/groups/1/')
+2018-11-26 23:53:42,160 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,160 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:53:42,161 mysql_action.py[line:29] INFO '2','wysh2','wysh2@qq.com','http://127.0.0.1:8009/groups/2/'
+2018-11-26 23:53:42,161 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('2','wysh2','wysh2@qq.com','http://127.0.0.1:8009/groups/2/')
+2018-11-26 23:53:42,308 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,309 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:53:42,309 mysql_action.py[line:29] INFO '3','wysh3','wysh3@qq.com','http://127.0.0.1:8009/groups/3/'
+2018-11-26 23:53:42,310 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('3','wysh3','wysh3@qq.com','http://127.0.0.1:8009/groups/3/')
+2018-11-26 23:53:42,414 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,415 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:53:42,415 mysql_action.py[line:29] INFO '4','wysh4','wysh4@qq.com','http://127.0.0.1:8009/groups/4/'
+2018-11-26 23:53:42,416 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('4','wysh4','wysh4@qq.com','http://127.0.0.1:8009/groups/4/')
+2018-11-26 23:53:42,464 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,465 mysql_action.py[line:28] INFO id,username,email,groups
+2018-11-26 23:53:42,466 mysql_action.py[line:29] INFO '5','wysh5','wysh5@qq.com','http://127.0.0.1:8009/groups/5/'
+2018-11-26 23:53:42,466 mysql_action.py[line:32] INFO insert into api_user(id,username,email,groups)values('5','wysh5','wysh5@qq.com','http://127.0.0.1:8009/groups/5/')
+2018-11-26 23:53:42,485 mysql_action.py[line:13] INFO clear db...
+2018-11-26 23:53:42,731 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,732 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:53:42,733 mysql_action.py[line:29] INFO '1','wysh_group1'
+2018-11-26 23:53:42,734 mysql_action.py[line:32] INFO insert into api_group(id,name)values('1','wysh_group1')
+2018-11-26 23:53:42,752 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,752 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:53:42,753 mysql_action.py[line:29] INFO '2','wysh_group2'
+2018-11-26 23:53:42,753 mysql_action.py[line:32] INFO insert into api_group(id,name)values('2','wysh_group2')
+2018-11-26 23:53:42,774 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,775 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:53:42,775 mysql_action.py[line:29] INFO '3','wysh_group3'
+2018-11-26 23:53:42,776 mysql_action.py[line:32] INFO insert into api_group(id,name)values('3','wysh_group3')
+2018-11-26 23:53:42,796 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,798 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:53:42,798 mysql_action.py[line:29] INFO '4','wysh_group4'
+2018-11-26 23:53:42,799 mysql_action.py[line:32] INFO insert into api_group(id,name)values('4','wysh_group4')
+2018-11-26 23:53:42,819 mysql_action.py[line:21] INFO inser data...
+2018-11-26 23:53:42,820 mysql_action.py[line:28] INFO id,name
+2018-11-26 23:53:42,820 mysql_action.py[line:29] INFO '5','wysh_group5'
+2018-11-26 23:53:42,820 mysql_action.py[line:32] INFO insert into api_group(id,name)values('5','wysh_group5')
+2018-11-26 23:53:42,863 mysql_action.py[line:39] INFO close db
+2018-11-26 23:53:42,864 mysql_action.py[line:41] INFO =============init finished!============
+2018-11-26 23:53:45,278 run.py[line:27] INFO =========Start API Test=============
+2018-11-26 23:53:45,279 test_django_restful.py[line:60] INFO test_001_group
+2018-11-26 23:53:48,322 test_django_restful.py[line:67] INFO test_002_add_group
+2018-11-26 23:53:49,621 test_django_restful.py[line:75] INFO test_003_update_group
+2018-11-26 23:53:50,433 test_django_restful.py[line:83] INFO test_004_delete_group
+2018-11-26 23:53:51,755 test_django_restful.py[line:14] INFO test_001_get_user
+2018-11-26 23:53:52,580 test_django_restful.py[line:22] INFO test_002_add_user
+2018-11-26 23:53:53,702 test_django_restful.py[line:32] INFO test_003_update_user
+2018-11-26 23:53:54,567 test_django_restful.py[line:40] INFO test_004_delete_user
+2018-11-26 23:53:55,462 test_django_restful.py[line:46] INFO test_005_no_auth

@@ -1,0 +1,36 @@
+api_user:
+   - id: 1
+     username: wysh1
+     email: wysh1@qq.com
+     groups: http://127.0.0.1:8009/groups/1/
+
+   - id: 2
+     username: wysh2
+     email: wysh2@qq.com
+     groups: http://127.0.0.1:8009/groups/2/
+
+   - id: 3
+     username: wysh3
+     email: wysh3@qq.com
+     groups: http://127.0.0.1:8009/groups/3/
+
+   - id: 4
+     username: wysh4
+     email: wysh4@qq.com
+     groups: http://127.0.0.1:8009/groups/4/
+
+   - id: 5
+     username: wysh5
+     email: wysh5@qq.com
+     groups: http://127.0.0.1:8009/groups/5/
+api_group:
+   - id: 1
+     name: wysh_group1
+   - id: 2
+     name: wysh_group2
+   - id: 3
+     name: wysh_group3
+   - id: 4
+     name: wysh_group4
+   - id: 5
+     name: wysh_group5
